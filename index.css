@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .navbar{
+    background-color: rgb(15, 13, 13) !important;
+    position: static !important;
+ }
+
+ .navbar-brand{
+    font-size: 1.8rem !important;
+    color:  rgb(248, 248, 247)!important;
+ }
+ .navbar a{
+    font-size: 1.8rem !important;
+    color: rgb(248, 248, 247)!important;
+ }
+ .navbar a:hover{
+    color: rgb(175, 13, 1) !important;
+ }
+ #header .navbar-toggler{
+  background: white;
+ }
+
+ @media(max-width: 870px){
+ .navbar-brand{
+    font-size: 1.3rem !important;
+    color: rgb(246, 246, 246)!important;
+ }
+
+ .nav_link{
+   font-weight: bold;
+   border-bottom: none;
+ }
+ }
+#header .btn-connect{
+   font-size: 20px;
+   font-weight: 100;
+
+
+}
+#header .about{
+   font-size: 20px;
+}
+
+#header .row{
+   display: flex;
+}
